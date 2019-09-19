@@ -6,12 +6,9 @@
  */
 int main(void)
 {
-char lowcase= 'a';
-while (lowcase <= 'z')
-{
-putchar(lowcase);
-lowcase++;
-}
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
 putchar('\n');
 return (0);
 }
