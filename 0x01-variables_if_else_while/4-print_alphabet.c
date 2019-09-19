@@ -6,11 +6,14 @@
  */
 int main(void)
 {
-char case;
-for (case = 'a'; case <= 'z'; case++)
-if (case == 'e' || case == 'q')
-case++
+char case = 'a';
+while (case <= 'z')
+{
 putchar(case);
+case++;
+if (case == 'e' || case == 'q')
+case++;
+}
 putchar('\n');
 return (0);
 }
