@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * Kais Boumaiza
+ * Boumaiza-kais
  * Description : alphabet game
  * Return: Always 0.
  */

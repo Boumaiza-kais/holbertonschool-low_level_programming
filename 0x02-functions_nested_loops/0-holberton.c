@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*Kais boumaiza
+*Boumaiza-kais
 *Description : write holberton using putchar
 *Return: 0
 */

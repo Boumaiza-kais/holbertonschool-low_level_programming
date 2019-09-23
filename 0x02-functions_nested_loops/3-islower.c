@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *Boumaiza-kais
- *Descreption : check lowercase
+ * Boumaiza-kais
+ * Descreption : check lowercase
  * Return: 1
  */
 
