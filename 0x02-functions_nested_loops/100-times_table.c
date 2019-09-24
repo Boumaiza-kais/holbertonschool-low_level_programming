@@ -4,7 +4,7 @@
  * @n: int type
  * Return: return table of values
  */
-  void print_times_table(int n)
+void print_times_table(int n)
 {
 	int c, m;
 
