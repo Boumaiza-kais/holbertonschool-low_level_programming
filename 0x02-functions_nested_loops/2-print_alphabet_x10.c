@@ -1,22 +1,24 @@
 #include "holberton.h"
+
 /**
- * Boumaiza-kais
- * Description : alphabet game
- * Return: Always 0.
+ * print_alphabet_x10 - print list of alphabets 10 times
+ * Return: 0
  */
+
 void print_alphabet_x10(void)
 {
-char c ;
-int i = 0 ;
-while (i < 10 )
-    {
-    c = 'a';
-     while ( c <= 'z')
-{
-_putchar (c);
-c++ ;
-}
-    _putchar ("\n");
-    i++;
-    }  
+	char c;
+	int d = 0;
+
+	while (d < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+		d++;
+	}
 }
