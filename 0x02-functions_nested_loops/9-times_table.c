@@ -2,7 +2,8 @@
 
 /**
  * times_table - produce the nine times table
- * Return : returns the table arranged in order
+ * returns the table arranged in order
+ * Return : void 
  */
 
 void times_table(void)
