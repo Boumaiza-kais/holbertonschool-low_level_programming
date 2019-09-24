@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - entry point
- * @n: number to check
+ * @n: int typ
  * Return: Always 0 (Success)
  */
 void print_to_98(int n)
