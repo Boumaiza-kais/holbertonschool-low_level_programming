@@ -2,17 +2,16 @@
 
 /**
  * times_table - produce the nine times table
- * returns the table arranged in order
- * Return : void
+ * Return : returns the table arranged in order
  */
 
 void times_table(void)
 {
-  int a, b;
-  a = 0;
+  int a = 0;
+  int b = 0;
+ 
  while (a <= 9)
   {
-  b = 0;
   while (b <= 9)
       {
 	 if ((a * b) > 9)
