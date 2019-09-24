@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_below_98 - check for numbers below 98
+ * print_to_98 - check for numbers below 98
  * @n: int type
  * Return: return all values including 98
  */
