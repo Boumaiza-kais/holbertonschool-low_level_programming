@@ -1,10 +1,8 @@
 # include "holberton.h"
 /**
  * add - get the last digit
- *
  * @a: int type
  * @b: int type
- *
  * Return: sum of two intergers
  */
 

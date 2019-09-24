@@ -3,7 +3,6 @@
 /**
  * print_last_digit - selects the last digit of an integer
  * @i: int type
- *
  * Return: the absolute value of last digit
  */
 int print_last_digit(int i)
