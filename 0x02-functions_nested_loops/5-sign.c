@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * Boumaiza-kais
- * Description : sign of n
+ * print_sign - check if n is +, - or 0
  * Return: 1 if n is > 0, 0 is zero and -1 if < 0.
  */
+
 int print_sign(int n)
 {
 if (n > 0)

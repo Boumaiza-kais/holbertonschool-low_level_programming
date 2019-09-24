@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * Boumaiza-kais
- * Description : isalpha
+ * _isalpha - checks if character is letter, lowercase or uppercase
+ * and return 1 if yes and 0 if no.
  * Return: 1 if c is letter, lowercase or uppercase
- * Return 0 if it s not
+ * and 0 otherwise.
  */
 int _isalpha(int c)
 {

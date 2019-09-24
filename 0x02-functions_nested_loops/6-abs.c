@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
- * boumaiza-kais
- * Description : use abs function to
+ * _abs - compute the absolute value of an integer
  * Return: return absolute value of integer
  */
 int _abs(int a)
