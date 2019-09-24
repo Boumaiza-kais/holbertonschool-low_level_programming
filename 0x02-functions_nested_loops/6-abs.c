@@ -1,6 +1,9 @@
 #include "holberton.h"
 /**
  * _abs - compute the absolute value of an integer
+ *
+ * @a: int type
+ *
  * Return: return absolute value of integer
  */
 int _abs(int a)

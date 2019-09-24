@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * Boumaiza-kais
- * Description : prints every minute of the day of Jack Bauer,
- * starting from 00:00 to 23:59.
+ * jack_bauer - print every minute of the day
+ *
+ *
+ * Return: all the minutes
  */
-
 void jack_bauer(void)
 {
 int a, b;

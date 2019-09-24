@@ -1,7 +1,10 @@
 # include "holberton.h"
 /**
- * Boumaiza-kais
- * Description : add two integers (a+b)
+ * add - get the last digit
+ *
+ * @a: int type
+ * @b: int type
+ *
  * Return: sum of two intergers
  */
 

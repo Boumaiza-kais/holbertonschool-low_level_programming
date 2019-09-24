@@ -1,11 +1,10 @@
-  
 #include "holberton.h"
 /**
- * Boumaiza-kais
- * Description : prints the last digit of a number.
- * Return : last digit of a number (i)
+ * print_last_digit - selects the last digit of an integer
+ * @n: int type
+ *
+ * Return: the absolute value of last digit
  */
-
 int print_last_digit(int i)
 {
 int r;
