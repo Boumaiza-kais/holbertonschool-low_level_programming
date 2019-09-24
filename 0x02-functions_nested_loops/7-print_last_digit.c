@@ -1,7 +1,8 @@
 #include "holberton.h"
+
 /**
  * print_last_digit - selects the last digit of an integer
- * @n: int type
+ * @i: int type
  *
  * Return: the absolute value of last digit
  */
