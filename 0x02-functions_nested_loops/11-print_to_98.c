@@ -1,14 +1,14 @@
 #include "holberton.h"
 #include <stdio.h>
+
 /**
- * print_to_98 - entry point
- * @n: int typ
- * Return: Always 0 (Success)
+ * print_below_98 - check for numbers below 98
+ * @n: int type
+ * Return: return all values including 98
  */
 void print_to_98(int n)
 {
 int i;
-
 if (n == 98)
 {
 printf("%d, ", n);
