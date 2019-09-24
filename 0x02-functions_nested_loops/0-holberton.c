@@ -1,11 +1,8 @@
 #include "holberton.h"
-
 /**
-*Boumaiza-kais
-*Description : write holberton using putchar
-*Return: 0
-*/
-
+  * main - Display Holberton with _putchar function
+  * Return: 0
+**/
 int main(void)
 {
 _putchar('H');
