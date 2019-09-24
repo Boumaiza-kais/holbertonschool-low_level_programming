@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * times_table - produce the nine times table
- * returns the table arranged in order
- * Return : void
+ * times_table - produce the nine times table.
+ * returns the table arranged in order.
+ * Return : void.
  */
 
 void times_table(void)
