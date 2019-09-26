@@ -2,7 +2,6 @@
 /**
  * print_triangle - Entry point
  * @size: int - size of the triangle
- *
  * Return: void
  */
 void print_triangle(int size)
