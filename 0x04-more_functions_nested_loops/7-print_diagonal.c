@@ -1,10 +1,11 @@
-include "holberton.h"
+#include "holberton.h"
 #include <stdio.h>
 /**
- * print_diagonal - Entry point
+ * print_diagonal -draws a diagonal line on the terminal.
  * @n: int
  * Return: void
  */
+
 void print_diagonal(int n)
 {
 int i, j;
