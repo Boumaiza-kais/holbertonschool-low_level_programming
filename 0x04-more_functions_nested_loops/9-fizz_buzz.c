@@ -1,10 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *  fizz_buzz test -prints the numbers from 1 to 100, followed by a new line
- *  for multiples of three print Fizz instead of the number.
- *  for the multiples of five print Buzz
- *  for numbers which are multiples of both three and five print FizzBuzz.
- * Return: Always 0.
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
