@@ -12,7 +12,7 @@ int i;
 i = 0;
 int j;
 char l[] = "oOlLeEaAtT";
-char n[] = "0011334477";
+char n[] = "01347";
 for (i = 0; s[i] != '\0'; i++)
 {
 for (j = 0; l[j] != '\0'; j++)
