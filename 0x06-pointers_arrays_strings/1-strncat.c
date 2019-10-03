@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * char *_strcat - function that concatenates two strings
+ * _strncat - function that concatenates two strings
  * @dest : char type
  * @src : char type
  * @n : int type
@@ -11,7 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
- for (i = 0; dest[i] != '\0'; i++)
+for (i = 0; dest[i] != '\0'; i++)
 ;
 for (j = 0; j < n && src[j] != '\0'; j++)
 dest[i + j] = src[j];
