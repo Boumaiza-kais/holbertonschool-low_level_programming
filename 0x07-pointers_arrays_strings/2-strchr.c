@@ -4,7 +4,7 @@
  * @s: char type
  * @c: char type
  *
- * Return: pointer 
+ * Return: pointer
  */
 char *_strchr(char *s, char c)
 {
