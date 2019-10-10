@@ -12,7 +12,8 @@ return (1);
 else if  (b % a == 0)
 return (0);
 else
-return  (check_prime(a + 1, b));
+check_prime(a + 1, b);
+return (1);
 }
 
 /**
@@ -28,5 +29,6 @@ if (n <= 1)
 return (0);
 if (n == 0)
 return (0);
-return (check_prime(2,  n));
+check_prime(2,  n);
+return (1);
 }
