@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* _strl_rec - calculate length of string
+* _strlen_recursion- calculate length of string
 * @s: pointer to string to be counted
 * Return: return count
 */
