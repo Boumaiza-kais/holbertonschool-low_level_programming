@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints the name of the program
+ * main - function that multiplies two numbers.
  * @argc: number of command line arguments
  * @argv: an array of size argc
  *
