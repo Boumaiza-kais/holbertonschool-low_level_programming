@@ -6,7 +6,7 @@
 * with a specific char.
 * @size: unsigned int
 * @c: char
-* Return: pointer 
+* Return: pointer
 */
 char *create_array(unsigned int size, char c)
 {
