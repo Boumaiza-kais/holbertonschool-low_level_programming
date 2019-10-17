@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "holberton.h"
 /**
 * *string_nconcat - create a function that concatenates two strings
 * @s1: size of the array.
@@ -10,10 +10,10 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int i, count1;
+int i, j;
 int sign = n;
 char *p;
-int l1, len2;
+int l1, l2;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
@@ -24,7 +24,7 @@ for (l2 = 0; s2[l2] != '\0'; l2++)
 ;
 if (sign >= l2)
 {
-sign = len2;
+sign = l2;
 p = malloc(sizeof(char) * (l1 + l2 + 1));
 }
 else
