@@ -28,10 +28,10 @@ l2++;
 if (sign >= l2)
 {
 sign = l2;
-p = malloc(sizeof(char) * (l + l2 + 1));
+p = malloc((sizeof(char) * l) + l2 + 1);
 }
 else
-p = malloc(sizeof(char) * (l + n + 1));
+p = malloc((sizeof(char) * l) + n + 1));
 if (p == NULL)
 return (NULL);
 for (i = 0; i < l; i++)
