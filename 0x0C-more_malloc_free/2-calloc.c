@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
-  * _calloc - function that allocates memory from an array using malloc
+  * *_calloc - function that allocates memory from an array using malloc
   * @nmemb: unsigned int type
   * @size: unsigned int type
   * Return: pointer
@@ -15,7 +15,7 @@ return (NULL);
 p = malloc(nmemb * size);
 if (p == NULL)
 return (NULL);
-for (i = 0; i < size; i++)
+for (i = 0; i < (nmemb * size); i++)
 p[i] = 0;
 return (p);
 }
