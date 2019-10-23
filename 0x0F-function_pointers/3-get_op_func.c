@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
  * get_op_func - function to select operator
  * @s: char type
