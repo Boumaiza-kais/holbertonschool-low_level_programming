@@ -26,11 +26,6 @@ if (op == NULL)
 printf("Error\n");
 exit(99);
 }
-if ((argv[2][0] == '%' || argv[2][0] == '/') && atoi(argv[3]) == 0)
-{
-printf("Error\n");
-exit(100);
-}
 printf("%d\n", op(num1, num2));
 return (0);
 }
