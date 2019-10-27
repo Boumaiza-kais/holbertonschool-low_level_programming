@@ -4,7 +4,7 @@
 #include <stdarg.h>
 
 /**
- * struct print - type with corresponding print function
+ * struct print - type of the function print_all
  * @prt: char type
  * @func: print function
  */
