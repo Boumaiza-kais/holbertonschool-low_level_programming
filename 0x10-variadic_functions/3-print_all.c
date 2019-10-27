@@ -4,7 +4,7 @@
 
 /**
  * print_char - print a char
- * @c: char 
+ * @c: char
  *
  * Return: void
  */
@@ -14,8 +14,8 @@ printf("%c", va_arg(c, int));
 }
 
 /**
- * print_str - prints a string
- * @s: string 
+ * print_string - prints a string
+ * @s: string
  *
  * Return: void
  */
@@ -30,7 +30,7 @@ printf("%s", str);
 
 /**
  * print_int - prints an int
- * @i: int 
+ * @i: int
  *
  * Return: void
  */
@@ -41,7 +41,7 @@ printf("%d", va_arg(i, int));
 
 /**
  * print_float - prints a float
- * @f: float 
+ * @f: float
  *
  * Return: void
  */
@@ -49,6 +49,14 @@ void print_float(va_list f)
 {
 printf("%f", va_arg(f, double));
 }
+
+/**
+ * print_all - prints anything
+ * @format: list of argument types passed to the function
+ *
+ * Return: void
+ */
+
 void print_all(const char * const format, ...)
 {
 int i, j;
