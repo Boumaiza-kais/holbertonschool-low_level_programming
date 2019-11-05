@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * *add_node - function that adds a new node at the beginning of a list
+ * *add_nodeint - function that adds a new node at the beginning of a list
  * @head: pointer to pointer of list_t struct type
  * @n: int type
  * Return: Always Successful

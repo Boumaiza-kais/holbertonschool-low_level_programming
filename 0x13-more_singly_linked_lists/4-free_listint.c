@@ -1,5 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 /**
  * free_listint - function to free nodes
@@ -13,7 +15,7 @@ listint_t *next;
 while (head != NULL)
 {
 next = head->next;
-free(head);
 head = head->next;
+free(next);
 }
 }
