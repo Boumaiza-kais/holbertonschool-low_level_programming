@@ -1,0 +1,26 @@
+#include "holberton.h"
+
+/**
+ * print_binary - function that convert number to binary
+ * @n: unsigned long  int type
+ * Return: always successful
+ */
+long print_binary(unsigned long int n)
+{
+long long binaryNumber = 0;
+int remainder, i = 1 ;
+if (n == 0)
+{
+return 0;
+}
+else
+{
+while (n!=0)
+{
+remainder = n%2;
+binaryNumber += remainder*i;
+i *= 10;
+}
+}
+return binaryNumber;
+}
