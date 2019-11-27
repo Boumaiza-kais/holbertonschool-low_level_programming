@@ -23,10 +23,10 @@ fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 fr = read(fd, ptr, letters);
-if (fdr == -1)
+if (fr == -1)
 return (0);
 *(ptr + fr) = '\0';
-fdw = write(STDOUT_FILENO, p, fr);
+fw = write(STDOUT_FILENO, ptr, fr);
 if (fw == -1 || fw != fr)
 return (0);
 close(fd);
