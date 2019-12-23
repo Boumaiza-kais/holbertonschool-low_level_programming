@@ -1,18 +1,17 @@
+#include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * argstostr - concatenates all the arguments of your program.
  * @ac: is int type
  * @av: is int type
  * Return: pointer
  */
-
 char *argstostr(int ac, char **av)
 {
 char *str;
-int i; 
-int j; 
+int i;
+int j;
 int z = 0;
 if (ac == 0 || av == NULL)
 return (NULL);
