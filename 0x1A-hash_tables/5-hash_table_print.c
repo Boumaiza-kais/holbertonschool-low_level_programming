@@ -16,13 +16,13 @@ return;
 printf("{");
 for (i = 0; i < ht->size; i++)
 {
-temp = ht->array[i];
-while (temp != NULL)
+tmp = ht->array[i];
+while (tmp != NULL)
 {
 if (k == 0)
 printf(", ");
-printf("'%s': '%s'", temp->key, temp->value);
-temp = temp->next;
+printf("'%s': '%s'", tmp->key, tmp->value);
+tmp = tmp->next;
 k = 1;
 }
 }
