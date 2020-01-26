@@ -34,5 +34,10 @@ new_node->value = strdup(value);
 new_node = NULL;
 new_node = ht->array[i];
 ht->array[i] = new_node;
+}
+else
+{
+ht->array[i] = new_node;
+}
 return (1);
 }
